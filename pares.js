@@ -1,5 +1,5 @@
 function paresArr(arr){
-    pares = []
+    let pares = []
     for(const num of arr){
         if (num % 2 == 0){
             pares.push(num)
